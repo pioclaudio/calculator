@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+#main-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calc-container {
+    width: 300px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#calc-display {
+    margin: 10px;
+    border: 2px solid white;
+    text-align: right;
+    margin: auto;
+}
+
+#calc-expression {
+    height: 20px;
+    text-align: right;
+    padding: 2px;
+}
+
+#calc-input {
+    font-size: 30px;
+    text-align: right;
+    padding: 2px;
+}
+
+#calc-numbers {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.calc-button {
+    font-size: 18px;
+    border: 1px solid rgb(50, 50, 50);
+    min-height: 40px;
+    min-width: 40px;
+    text-align: center;
+    line-height: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.calc-button:hover {
+    background-color: rgb(50, 50, 50);
+}
